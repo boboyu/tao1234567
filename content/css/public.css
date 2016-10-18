@@ -1,0 +1,80 @@
+.tFontSmaller {
+  font-size: 12px;
+}
+.tFontSmall {
+  font-size: 14px;
+}
+.tFontNormal {
+  font-size: 16px;
+}
+.tFontBig {
+  font-size: 20px;
+}
+.tFontBigger {
+  font-size: 24px;
+}
+.tLineHeightSmaller {
+  line-height: 1;
+}
+.tLineHeightSmall {
+  line-height: 1.2;
+}
+.tLineHeightNormal {
+  line-height: 1.5;
+}
+.tLineHeightBig {
+  line-height: 2;
+}
+.tLineHeightBigger {
+  line-height: 3;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.icon-msg,
+.icon-shopcar1,
+.icon-shopcar2,
+.icon-shopcar3,
+.icon-shopcar4,
+.icon-search,
+.icon-note {
+  background: url(../img/spring_x24.png) no-repeat;
+}
+.icon-note {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -100px;
+}
+.w1200 > :child {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  height: 88px;
+  background: #000;
+}
+.header .tlogo {
+  width: 400px;
+  margin-left: 50px;
+}
+.header .tbar {
+  margin-right: 50px;
+  font-size: 20px;
+  line-height: 88px;
+}
+.header .tbar a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 16px;
+}
+.tlogo {
+  height: 100%;
+  background: url(../img/logo_x24.png) no-repeat left center;
+}
